@@ -1,0 +1,16 @@
+# Output products list for <CONV_RAM>
+CONV_RAM/blk_mem_gen_v7_3_readme.txt
+CONV_RAM/doc/blk_mem_gen_v7_3_vinfo.html
+CONV_RAM/doc/pg058-blk-mem-gen.pdf
+CONV_RAM.asy
+CONV_RAM.gise
+CONV_RAM.ngc
+CONV_RAM.sym
+CONV_RAM.v
+CONV_RAM.veo
+CONV_RAM.xco
+CONV_RAM.xise
+CONV_RAM_flist.txt
+CONV_RAM_xmdf.tcl
+_xmsgs/pn_parser.xmsgs
+summary.log

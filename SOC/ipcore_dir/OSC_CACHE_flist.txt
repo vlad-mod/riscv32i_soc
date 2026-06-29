@@ -1,0 +1,16 @@
+# Output products list for <OSC_CACHE>
+OSC_CACHE/blk_mem_gen_v7_3_readme.txt
+OSC_CACHE/doc/blk_mem_gen_v7_3_vinfo.html
+OSC_CACHE/doc/pg058-blk-mem-gen.pdf
+OSC_CACHE.asy
+OSC_CACHE.gise
+OSC_CACHE.ngc
+OSC_CACHE.sym
+OSC_CACHE.v
+OSC_CACHE.veo
+OSC_CACHE.xco
+OSC_CACHE.xise
+OSC_CACHE_flist.txt
+OSC_CACHE_xmdf.tcl
+_xmsgs/pn_parser.xmsgs
+summary.log

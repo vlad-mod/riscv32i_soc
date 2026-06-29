@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="PROJ_OSC" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CACHE |home|vm|Documents|lu|DIP|PROJ_OSC|CACHE.v</ClosedNode>
+         <ClosedNode>/CACHE_L2 |home|vm|Documents|lu|DIP|PROJ_OSC|CACHE_L2.v</ClosedNode>
+         <ClosedNode>/CPU_RAM |home|vm|Documents|lu|DIP|PROJ_OSC|CPU_RAM.v</ClosedNode>
+         <ClosedNode>/CPU_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|CPU_TEST.v/dut - MD_CPU</ClosedNode>
+         <ClosedNode>/MD_CPU |home|vm|Documents|lu|DIP|PROJ_OSC|MD_CPU.v</ClosedNode>
+         <ClosedNode>/OSC_BASE |home|vm|Documents|lu|DIP|PROJ_OSC|CACHE_L2.v</ClosedNode>
+         <ClosedNode>/OSC_BASE |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE.v/OSC_DRAW - OSC_DRAW</ClosedNode>
+         <ClosedNode>/OSC_BASE |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE.v/cache - CACHE_L2</ClosedNode>
+         <ClosedNode>/OSC_BASE |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE.v/cpu - MD_CPU</ClosedNode>
+         <ClosedNode>/OSC_BASE |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE.v/cpu - MD_CPU/ALU - MD_ALU</ClosedNode>
+         <ClosedNode>/OSC_BASE |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE.v/dut - MD_CPU</ClosedNode>
+         <ClosedNode>/OSC_BASE |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE.v/mem - OSC_MEM</ClosedNode>
+         <ClosedNode>/OSC_BASE |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE.v/ram - CPU_RAM</ClosedNode>
+         <ClosedNode>/OSC_DRAW |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_DRAW.v</ClosedNode>
+         <ClosedNode>/OSC_MEM |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_MEM.v</ClosedNode>
+         <ClosedNode>/OSC_MEM |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_MEM.v/CACHE_1 - CACHE</ClosedNode>
+         <ClosedNode>/SOC |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE.v/cpu - MD_CPU</ClosedNode>
+         <ClosedNode>/SOC |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE.v/ram - CPU_RAM</ClosedNode>
+         <ClosedNode>/SOC |home|vm|Documents|lu|DIP|PROJ_OSC|SOC.v/cpu - MD_CPU</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>DISPLAY_MEM_1 - DISP_MEM (/home/vm/Documents/lu/DIP/SOC/ipcore_dir/DISP_MEM.xco)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000017d0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>DISPLAY_MEM_1 - DISP_MEM (/home/vm/Documents/lu/DIP/SOC/ipcore_dir/DISP_MEM.xco)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000004cc000000040101000100000000000000000000000064ffffffff000000810000000000000004000000510000000100000000000000290000000100000000000000840000000100000000000003ce0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ADDR_SWITCH_TEST.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000115000000010001000100000000000000000000000064ffffffff000000810000000000000001000001150000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000193000000010000000100000000000000000000000064ffffffff000000810000000000000001000001930000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000184000000b001000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ADDR_SWITCH_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|ADDR_SWITCH_TEST.v</ClosedNode>
+         <ClosedNode>/B_T |home|vm|Documents|lu|DIP|PROJ_OSC|B_T.v/uut - OSC_BASE/cache - CACHE_L2</ClosedNode>
+         <ClosedNode>/B_T |home|vm|Documents|lu|DIP|PROJ_OSC|B_T.v/uut - OSC_BASE/cpu - MD_CPU</ClosedNode>
+         <ClosedNode>/B_T |home|vm|Documents|lu|DIP|PROJ_OSC|B_T.v/uut - OSC_BASE/cpu - MD_CPU/ALU - MD_ALU</ClosedNode>
+         <ClosedNode>/B_T |home|vm|Documents|lu|DIP|PROJ_OSC|B_T.v/uut - OSC_BASE/ram - CPU_RAM</ClosedNode>
+         <ClosedNode>/CACHE |home|vm|Documents|lu|DIP|PROJ_OSC|CACHE.v</ClosedNode>
+         <ClosedNode>/CACHE_L2 |home|vm|Documents|lu|DIP|PROJ_OSC|CACHE_L2.v</ClosedNode>
+         <ClosedNode>/CACHE_L2_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|CACHE_L2_TEST.v</ClosedNode>
+         <ClosedNode>/CACHE_L2_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|CACHE_L2_TEST.v/dut - CACHE_L2</ClosedNode>
+         <ClosedNode>/CPU_ALU_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|CPU_ALU_TEST.v</ClosedNode>
+         <ClosedNode>/CPU_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|CPU_TEST.v</ClosedNode>
+         <ClosedNode>/CPU_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|CPU_TEST.v/dut - MD_CPU</ClosedNode>
+         <ClosedNode>/CPU_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|CPU_TEST.v/dut - MD_CPU/ALU - MD_ALU</ClosedNode>
+         <ClosedNode>/CPU_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|CPU_TEST.v/ram - CPU_RAM</ClosedNode>
+         <ClosedNode>/MD_CPU |home|vm|Documents|lu|DIP|PROJ_OSC|MD_CPU.v</ClosedNode>
+         <ClosedNode>/OSC_ADC_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_ADC_TEST.v</ClosedNode>
+         <ClosedNode>/OSC_BASE |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE.v</ClosedNode>
+         <ClosedNode>/OSC_BASE_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE_TEST.v/uut - OSC_BASE/OSC_DRAW - OSC_DRAW</ClosedNode>
+         <ClosedNode>/OSC_BASE_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE_TEST.v/uut - OSC_BASE/dut - MD_CPU</ClosedNode>
+         <ClosedNode>/OSC_BASE_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_BASE_TEST.v/uut - OSC_BASE/ram - CPU_RAM</ClosedNode>
+         <ClosedNode>/OSC_CLK_DIV_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_CLK_DIV_TEST.v</ClosedNode>
+         <ClosedNode>/OSC_DISP_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_DISP_TEST.v</ClosedNode>
+         <ClosedNode>/OSC_DRAW |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_DRAW.v</ClosedNode>
+         <ClosedNode>/OSC_MEM |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_MEM.v</ClosedNode>
+         <ClosedNode>/OSC_MEM |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_MEM.v/CACHE_1 - CACHE</ClosedNode>
+         <ClosedNode>/OSC_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|OSC_TEST.v</ClosedNode>
+         <ClosedNode>/SEG_DISP_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|SEG_DISP_TEST.v</ClosedNode>
+         <ClosedNode>/SRAM_TEST |home|vm|Documents|lu|DIP|PROJ_OSC|SRAM_TEST.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>CPU_TEST (/home/vm/Documents/lu/DIP/SOC/CPU_TEST.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000017d0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>CPU_TEST (/home/vm/Documents/lu/DIP/SOC/CPU_TEST.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000146000000010000000100000000000000000000000064ffffffff000000810000000000000001000001460000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000193000000010000000100000000000000000000000064ffffffff000000810000000000000001000001930000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

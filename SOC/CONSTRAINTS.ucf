@@ -1,0 +1,142 @@
+
+
+## Clock Signal 100MHz
+NET "CLK"   LOC = D11 | IOSTANDARD = "LVCMOS33";
+NET "CLK" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+#IO
+
+NET "SW[0]"  LOC = V5 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L13N_3, Sch name = SW0
+NET "SW[1]"  LOC = U4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L18P_3, Sch name = SW1
+NET "SW[2]"  LOC = V3 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L18N_3, Sch name = SW2
+NET "SW[3]"  LOC = P4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L21P_3, Sch name = SW3
+NET "SW[4]"  LOC = R4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L21N_3, Sch name = SW4
+NET "SW[5]"  LOC = P6 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L22P_3, Sch name = SW5
+NET "SW[6]"  LOC = P5 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L22N_3, Sch name = SW6
+NET "SW[7]"  LOC = P8 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L23P_3, Sch name = SW7
+
+NET "RST"  LOC = E6 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L82P_3, Sch name = BTN0
+NET "BTN[0]"  LOC = D5 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L82N_3, Sch name = BTN1
+NET "BTN[1]"  LOC = A3 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L83P_3, Sch name = BTN2
+NET "BTN[2]" LOC = AB9 | IOSTANDARD = LVCMOS33;
+
+
+NET "LED[0]"  LOC = W3 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L9P_3, Sch name = LD0
+NET "LED[1]"  LOC = Y4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L7N_3, Sch name = LD1
+NET "LED[2]"  LOC = Y1 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L2N_3, Sch name = LD2
+NET "LED[3]"  LOC = Y3 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L8P_3, Sch name = LD3
+NET "LED[4]"  LOC = AB4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L12N_3, Sch name = LD4
+NET "LED[5]"  LOC = W1  | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L9N_3, Sch name = LD5
+NET "LED[6]"  LOC = AB3 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L8N_3, Sch name = LD6
+NET "LED[7]"  LOC = AA4 | IOSTANDARD = LVCMOS18;  #Bank = 3, pin name = IO_L12P_3, Sch name = LD7
+
+
+## 7 Segment Display
+NET "SEG[0]"  LOC = AA21 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L63P_1, Sch name = 7SD-AA
+NET "SEG[1]"  LOC = AA22 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L63N_1, Sch name = 7SD-AB
+NET "SEG[2]"  LOC = Y22  | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L59N_1, Sch name = 7SD-AC
+NET "SEG[3]"  LOC = N15  | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L60P_1, Sch name = 7SD-AD
+NET "SEG[4]"  LOC = AB19 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L65P_1, Sch name = 7SD-AE
+NET "SEG[5]"  LOC = P20  | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L64N_1, Sch name = 7SD-AF
+NET "SEG[6]"  LOC = Y21  | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L59P_1, Sch name = 7SD-AG
+
+NET "dp"   LOC = P15 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L62P_1, Sch name = 7SD-DP
+
+NET "AN[1]"  LOC = P16 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L62N_1, Sch name = 7SD-C1
+NET "AN[0]"  LOC = M17 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L58N_1, Sch name = 7SD-C2
+NET "AN[3]"  LOC = N16 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L60N_1, Sch name = 7SD-C3
+NET "AN[2]"  LOC = P19 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L64P_1, Sch name = 7SD-C4
+NET "AN[4]"  LOC = AB21 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L61N_1, Sch name = 7SD-C6
+NET "AN[5]"  LOC = AA20 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L61P_1, Sch name = 7SD-C5
+
+    
+## SRAM
+
+/*
+NET "sram_addr[0]"  LOC = F22 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L29N_A22_M1A14_1, Sch name = SRAM-A0
+NET "sram_addr[1]"  LOC = F21 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L29P_A23_M1A13_1, Sch name = SRAM-A1
+NET "sram_addr[2]"  LOC = E22 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L31N_A18_M1A12_1, Sch name = SRAM-A2
+NET "sram_addr[3]"  LOC = D22 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L33N_A14_M1A4_1, Sch name = SRAM-A3
+NET "sram_addr[4]"  LOC = D21 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L33P_A15_M1A10_1, Sch name = SRAM-A4
+NET "sram_addr[5]"  LOC = D19 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L11P_1, Sch name = SRAM-A5
+NET "sram_addr[6]"  LOC = D20 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L11N_1, Sch name = SRAM-A6
+NET "sram_addr[7]"  LOC = E20 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L31P_A19_M1CKE_1, Sch name = SRAM-A7
+NET "sram_addr[8]"  LOC = G17 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L13P_1, Sch name = SRAM-A8
+NET "sram_addr[9]"  LOC = H18 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L17N_1, Sch name = SRAM-A9
+NET "sram_addr[10]"  LOC = H13 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L21P_1, Sch name = SRAM-A10
+NET "sram_addr[11]"  LOC = H12 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L219P_1, Sch name = SRAM-A11
+NET "sram_addr[12]"  LOC = K16 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L28N_VREF_1, Sch name = SRAM-A12
+NET "sram_addr[13]"  LOC = L15 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L28P_1, Sch name = SRAM-A13
+NET "sram_addr[14]"  LOC = G15 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L10P_1, Sch name = SRAM-A14
+NET "sram_addr[15]"  LOC = J16 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L20P_1, Sch name = SRAM-A15
+NET "sram_addr[16]"  LOC = H17 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L17P_1, Sch name = SRAM-A16
+NET "sram_addr[17]"  LOC = H16 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L20N_1, Sch name = SRAM-A17
+NET "sram_addr[18]"  LOC = G16 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L10N_1, Sch name = SRAM-A18
+
+NET "sram_dq[0]"  LOC = H21 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L34P_A13_M1WE_1, Sch name = SRAM-DQ0
+NET "sram_dq[1]"  LOC = A20 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L16N_1, Sch name = SRAM-DQ1
+NET "sram_dq[2]"  LOC = A21 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L14N_1, Sch name = SRAM-DQ2
+NET "sram_dq[3]"  LOC = A19 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L16P_1, Sch name = SRAM-DQ3
+NET "sram_dq[4]"  LOC = B20 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L14P_1, Sch name = SRAM-DQ4
+NET "sram_dq[5]"  LOC = C18 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L12P_1, Sch name = SRAM-DQ5
+NET "sram_dq[6]"  LOC = C19 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L12N_1, Sch name = SRAM-DQ6
+NET "sram_dq[7]"  LOC = F15 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L1P_A25_1, Sch name = SRAM-DQ7
+NET "sram_dq[8]"  LOC = F18 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L15N_1, Sch name = SRAM-DQ8
+NET "sram_dq[9]"  LOC = F17 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L15P_1, Sch name = SRAM-DQ9
+NET "sram_dq[10]"  LOC = F14 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L9N_1, Sch name = SRAM-DQ10
+NET "sram_dq[11]"  LOC = F13 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L9P, Sch name = SRAM-DQ11
+NET "sram_dq[12]"  LOC = H14 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L21N_1, Sch name = SRAM-DQ12
+NET "sram_dq[13]"  LOC = H19 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L30P_A21_M1RESET_1, Sch name = SRAM-DQ13
+NET "sram_dq[14]"  LOC = H20 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L30N_A20_M1A11_1, Sch name = SRAM-DQ14
+NET "sram_dq[15]"  LOC = G20 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L32P_A17_M1A8_1, Sch name = SRAM-DQ15
+
+NET "sram_CS1"  LOC = G22 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L32N_A16_M1A9_1, Sch name = SRAM-CS1
+NET "sram_CS2"  LOC = G13 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L19N_1, Sch name = SRAM-CS2
+
+NET "sram_OE"  LOC = F19 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L18P_1, Sch name = SRAM-OE
+NET "sram_WE"  LOC = F16 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L1N_A24_VREF_1, Sch name = SRAM-WE
+
+NET "sram_UB"  LOC = F20 | IOSTANDARD = LVCMOS33;# | DRIVE = 2 | PULLDOWN;  #Bank = 1, pin name = IO_L18N_1, Sch name = SRAM-UB
+NET "sram_LB"  LOC = G19 | IOSTANDARD = LVCMOS33;# | DRIVE = 2 | PULLDOWN;  #Bank = 1, pin name = IO_L13N_1, Sch name = SRAM-LB
+*/
+NET "TFT_VDDEN" LOC = W20 | IOSTANDARD = LVCMOS33;  #Bank = 1, pin name = IO_L53P_1, Sch name = TFT-EN
+NET "TFT_B[0]"  LOC = N22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L47N_LDC_M1DQ1_1, Sch name = TFT-B0
+NET "TFT_B[1]"  LOC = P22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L48N_M1DQ9_1, Sch name = TFT-B1
+NET "TFT_B[2]"  LOC = P21 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L48P_HDC_M1DQ8_1, Sch name = TFT-B2
+NET "TFT_B[3]"  LOC = R22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L49N_M1DQ11_1, Sch name = TFT-B3
+NET "TFT_B[4]"  LOC = T22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L50N_M1UDQSN_1, Sch name = TFT-B4
+NET "TFT_B[5]"  LOC = T21 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L50P_M1UDQS_1, Sch name = TFT-B5
+NET "TFT_B[6]"  LOC = U22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L51N_M1DQ13_1, Sch name = TFT-B6
+NET "TFT_B[7]"  LOC = V22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L52N_M1DQ15_1, Sch name = TFT-B7
+NET "TFT_CLK"   LOC = L20 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L43P_GCLK5_M1DQ4_1, Sch name = TFT-CLK
+NET "TFT_DE"    LOC = W22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L53N_VREF_1, Sch name = TFT-DE
+NET "TFT_DISP"  LOC = V21 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L52P_M1DQ14_1, Sch name = TFT-DISP
+NET "TFT_G[0]"  LOC = C22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L35N_A10_M1A2_1, Sch name = TFT-G0
+NET "TFT_G[1]"  LOC = B22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L37N_A6_M1A1_1, Sch name = TFT-G1
+NET "TFT_G[2]"  LOC = B21 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L37P_A7_M1A0_1, Sch name = TFT-G2
+NET "TFT_G[3]"  LOC = H22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L34N_A12_M1BA2_1, Sch name = TFT-G3
+NET "TFT_G[4]"  LOC = K22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L44N_A2_M1DQ7_1, Sch name = TFT-G4
+NET "TFT_G[5]"  LOC = L22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L43N_GCLK4_M1DQ5_1, Sch name = TFT-G5
+NET "TFT_G[6]"  LOC = M22 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L45N_A0_M1LDQSN_1, Sch name = TFT-G6
+NET "TFT_G[7]"  LOC = M21 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L45P_A1_M1LDQS_1, Sch name = TFT-G7
+NET "TFT_BKLT"  LOC = M16 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L58P_1, Sch name = TFT-LED
+NET "TFT_R[0]"  LOC = R20 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L49P_M1DQ10_1, Sch name = TFT-R0
+NET "TFT_R[1]"  LOC = N19 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L46P_FCS_B_M1DQ2_1, Sch name = TFT-R1
+NET "TFT_R[2]"  LOC = K19 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L36N_A8_M1BA1_1, Sch name = TFT-R2
+NET "TFT_R[3]"  LOC = K20 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L42N_GCLK6_TRDY1_M1LDM_1, Sch name = TFT-R3
+NET "TFT_R[4]"  LOC = K18 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L36P_A9_M1BA0_1, Sch name = TFT-R4
+NET "TFT_R[5]"  LOC = J19 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L38N_A4_M1CLKN_1, Sch name = TFT-R5
+NET "TFT_R[6]"  LOC = J17 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L38P_A5_M1CLK_1, Sch name = TFT-R6
+NET "TFT_R[7]"  LOC = C20 | IOSTANDARD = LVCMOS33 | OUT_TERM = UNTUNED_75;  #Bank = 1, pin name = IO_L35P_A11_M1A7_1, Sch name = TFT-R7
+
+
+NET "JD[0]"  LOC = AB13 | IOSTANDARD = LVCMOS33;  #Bank = 2, pin name = IO_L41N_VREF_2, Sch name = JD1
+NET "JD[1]"  LOC = Y12 | IOSTANDARD = LVCMOS33;  #Bank = 2, pin name = IO_L42N_2, Sch name = JD2
+NET "JD[2]"  LOC = T11 | IOSTANDARD = LVCMOS33;  #Bank = 2, pin name = IO_L43N_2, Sch name = JD3
+NET "JD[3]"  LOC = W10 | IOSTANDARD = LVCMOS33;  #Bank = 2, pin name = IO_L44N_2, Sch name = JD4
+NET "JD[4]"  LOC = W12 | IOSTANDARD = LVCMOS33;  #Bank = 2, pin name = IO_L42P_2, Sch name = JD7
+NET "JD[5]"  LOC = R11 | IOSTANDARD = LVCMOS33;  #Bank = 2, pin name = IO_L43P_2, Sch name = JD8
+NET "JD[6]"  LOC = V11 | IOSTANDARD = LVCMOS33;  #Bank = 2, pin name = IO_L44P_2, Sch name = JD9
+NET "JD[7]"  LOC = T10 | IOSTANDARD = LVCMOS33;  #Bank = 2, pin name = IO_L45P_2, Sch name = JD10
+    

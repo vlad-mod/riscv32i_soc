@@ -1,0 +1,16 @@
+# Output products list for <OSC_RAM>
+OSC_RAM/blk_mem_gen_v7_3_readme.txt
+OSC_RAM/doc/blk_mem_gen_v7_3_vinfo.html
+OSC_RAM/doc/pg058-blk-mem-gen.pdf
+OSC_RAM.asy
+OSC_RAM.gise
+OSC_RAM.ngc
+OSC_RAM.sym
+OSC_RAM.v
+OSC_RAM.veo
+OSC_RAM.xco
+OSC_RAM.xise
+OSC_RAM_flist.txt
+OSC_RAM_xmdf.tcl
+_xmsgs/pn_parser.xmsgs
+summary.log

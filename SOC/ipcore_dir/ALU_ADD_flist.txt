@@ -1,0 +1,15 @@
+# Output products list for <ALU_ADD>
+ALU_ADD/doc/c_addsub_v11_0_readme.txt
+ALU_ADD/doc/c_addsub_v11_0_vinfo.html
+ALU_ADD/doc/ds214_addsub.pdf
+ALU_ADD.asy
+ALU_ADD.gise
+ALU_ADD.ngc
+ALU_ADD.sym
+ALU_ADD.v
+ALU_ADD.veo
+ALU_ADD.xco
+ALU_ADD.xise
+ALU_ADD_flist.txt
+ALU_ADD_xmdf.tcl
+_xmsgs/pn_parser.xmsgs
